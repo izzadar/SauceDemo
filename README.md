@@ -1,4 +1,4 @@
-# SauceDemo Automated test
+# SauceDemo Automated Tests
 This repository branch covers following:
 1. Basic setup of WebDriverIO testing framework with TypeScript
 2. Cucumber is used as BDD framework for features and step definition
