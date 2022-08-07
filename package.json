@@ -1,0 +1,21 @@
+{
+  "name": "sauce-automation-tests",
+  "version": "1.0.0",
+  "description": "Saucedemo",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx wdio run wdio.conf.ts --spec login.feature"
+  },
+  "author": "Izza Rashid Dar",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/cli": "^7.20.9",
+    "@wdio/cucumber-framework": "^7.20.8",
+    "@wdio/local-runner": "^7.20.9",
+    "@wdio/spec-reporter": "^7.20.8",
+    "chromedriver": "^104.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4",
+    "wdio-chromedriver-service": "^7.3.2"
+  }
+}
